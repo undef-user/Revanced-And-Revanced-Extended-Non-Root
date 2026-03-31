@@ -20,7 +20,7 @@ They are open-source scripts for patching various apps like YouTube, YouTube Mus
 Simply, all you need to do is choose the app you want to use from the options below: 'Revanced' or 'Revanced Extended'. Then, select your phone's CPU architecture. If you don't know what your phone's CPU architecture is, choose All Architectures. That's all there is to it.
 
 > [!NOTE]
-> If you want to use the YouTube, YouTube Music or Google Photos app, you need to download and install [MicroG](https://github.com/ReVanced/GmsCore/releases).
+> If you want to use the YouTube, YouTube Music or Google Photos app, you need to download and install [MicroG RE](https://github.com/MorpheApp/MicroG-RE) or [MicroG](https://github.com/ReVanced/GmsCore/releases)
 > 
 > If you are an advanced user and you want to use custom patches for patching apps, you should read the [Wiki](../main/docs/Frequently%20Asked%20Questions.md#q-how-do-i-use-this-repository-for-patching-my-own-app).
 > 
@@ -70,12 +70,6 @@ Download
 
 #### [![Duolingo](https://img.shields.io/badge/Duolingo-%234DC730.svg?style=for-the-badge&logo=Duolingo&logoColor=white)](?tab=readme-ov-file#duolingo)
 
-#### [![Prime Video](https://img.shields.io/badge/Amazon%20Prime-0F79AF?style=for-the-badge&logo=amazonprime&logoColor=white)](?tab=readme-ov-file#prime-video)
-
-#### [![Disney](https://img.shields.io/badge/Disney-%23006E99.svg?style=for-the-badge&logo=disney&logoColor=white)](?tab=readme-ov-file#disney)
-
-#### [![Crunchyroll](https://img.shields.io/badge/Crunchyroll-F47521?style=for-the-badge&logo=crunchyroll&logoColor=white)](?tab=readme-ov-file#crunchyroll)
-
 #### [![Viber](https://img.shields.io/badge/Viber-8B66A9?style=for-the-badge&logo=viber&logoColor=white)](?tab=readme-ov-file#viber)
 
 #### [![Protonmail](https://img.shields.io/badge/ProtonMail-8B89CC?style=for-the-badge&logo=protonmail&logoColor=white)](?tab=readme-ov-file#proton-mail)
@@ -83,8 +77,6 @@ Download
 #### [Google Photos](?tab=readme-ov-file#google-photos-1)
 
 #### [Proton VPN](?tab=readme-ov-file#proton-vpn-1)
-
-#### [Spotjfy](?tab=readme-ov-file#spotjfy-1)
 
 #### [Google News](?tab=readme-ov-file#google-news-1)
 
@@ -106,11 +98,18 @@ Download
 
 #### [FX File Explorer](?tab=readme-ov-file#fx-file-explorer-1)
 
+#### [MyFitnessPal](?tab=readme-ov-file#MyFitnessPal-1)
+
 </details>
+
+## [MicroG RE: (Recommend)](https://github.com/MorpheApp/MicroG-RE)
+
+[![Release](https://img.shields.io/github/v/release/MorpheApp/MicroG-RE?label=All%20Architectures&style=for-the-badge)](https://github.com/MorpheApp/MicroG-RE/releases) 
+
 
 ## [MicroG ReVanced:](https://github.com/ReVanced/GmsCore)
 
-[![Release](https://img.shields.io/github/v/release/ReVanced/GmsCore?label=All-arch&style=for-the-badge)](https://github.com/ReVanced/GmsCore/releases) 
+[![Release](https://img.shields.io/github/v/release/ReVanced/GmsCore?label=All%20Architectures&style=for-the-badge)](https://github.com/ReVanced/GmsCore/releases) 
 
 ---
 
@@ -118,7 +117,35 @@ Download
 
 ### [Morphe:](https://github.com/MorpheApp/morphe-patches)
 
-[All Architectures](../../releases/download/all/youtube-morphe.apk)
+| [Stable version](https://github.com/MorpheApp/morphe-patches/releases/latest)| [Beta version](https://github.com/MorpheApp/morphe-patches/releases)           |
+| ---------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| [All Architectures](../../releases/download/all/youtube-morphe.apk)          | [All Architectures](../../releases/download/all/youtube-beta-morphe.apk)       |
+| [Arm64-v8a](../../releases/download/all/youtube-arm64-v8a-morphe.apk)        | [Arm64-v8a](../../releases/download/all/youtube-beta-arm64-v8a-morphe.apk)     |
+| [Armeabi-v7a](../../releases/download/all/youtube-armeabi-v7a-morphe.apk)    | [Armeabi-v7a](../../releases/download/all/youtube-beta-armeabi-v7a-morphe.apk) |
+| [x86](../../releases/download/all/youtube-x86-morphe.apk)                    | [x86](../../releases/download/all/youtube-beta-x86-morphe.apk)                 |
+| [x86_64](../../releases/download/all/youtube-x86_64-morphe.apk)              | [x86_64](../../releases/download/all/youtube-beta-x86_64-morphe.apk)           |
+
+<details>
+  <summary>Lite version</summary>
+
+**A lite version is a version with unnecessary things removed. For example, it might only have an English interface and remove unused screen DPI from split APKs**
+
+| [Stable version](https://github.com/MorpheApp/morphe-patches/releases/latest)  | [Beta version](https://github.com/MorpheApp/morphe-patches/release)                 |
+| -----------------------------------------------------------------------------  | ----------------------------------------------------------------------------------- |
+| [Arm64-v8a](../../releases/download/all/youtube-lite-arm64-v8a-morphe.apk)     | [Arm64-v8a](../../releases/download/all/youtube-beta-lite-arm64-v8a-morphe.apk)     |
+| [Armeabi-v7a](../../releases/download/all/youtube-lite-armeabi-v7a-morphe.apk) | [Armeabi-v7a](../../releases/download/all/youtube-beta-lite-armeabi-v7a-morphe.apk) |
+
+</details>
+
+### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
+
+| [Stable version](https://github.com/anddea/revanced-patches/releases/latest)     | [Beta version](https://github.com/anddea/revanced-patches/releases)            |
+| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
+| [All Architectures](../../releases/download/all/youtube-stable-anddea.apk)       | [All Architectures](../../releases/download/all/youtube-beta-anddea.apk)       |
+| [Arm64-v8a](../../releases/download/all/youtube-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-beta-arm64-v8a-anddea.apk)     |
+| [Armeabi-v7a](../../releases/download/all/youtube-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-beta-armeabi-v7a-anddea.apk) |
+| [x86](../../releases/download/all/youtube-stable-x86-anddea.apk)                 | [x86](../../releases/download/all/youtube-beta-x86-anddea.apk)                 |
+| [x86_64](../../releases/download/all/youtube-stable-x86_64-anddea.apk)           | [x86_64](../../releases/download/all/youtube-beta-x86_64-anddea.apk)   
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
@@ -152,39 +179,6 @@ Download
 | [x86](../../releases/download/all/youtube-x86-revanced-extended.apk)                 | [x86](../../releases/download/all/youtube-beta-x86-revanced-extended.apk)                 |
 | [x86_64](../../releases/download/all/youtube-x86_64-revanced-extended.apk)           | [x86_64](../../releases/download/all/youtube-beta-x86_64-revanced-extended.apk)           |
 
-<details>
-  <summary>Lite version</summary>
-
-**A lite version is a version with unnecessary things removed. For example, it might only have an English interface and remove unused screen DPI from split APKs**
-
-| [Stable version](https://github.com/inotia00/revanced-patches/releases/latest)               | [Beta version](https://github.com/inotia00/revanced-patches/releases)                          |
-| -------------------------------------------------------------------------------------------  | ---------------------------------------------------------------------------------------------- |
-| [Arm64-v8a](../../releases/download/all/youtube-lite-arm64-v8a-revanced-extended.apk)        | [Arm64-v8a](../../releases/download/all/youtube-lite-beta-arm64-v8a-revanced-extended.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-lite-armeabi-v7a-revanced-extended.apk)    | [Armeabi-v7a](../../releases/download/all/youtube-lite-beta-armeabi-v7a-revanced-extended.apk) |
-
-</details>
-
-### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
-
-| [Stable version](https://github.com/anddea/revanced-patches/releases/latest)     | [Beta version](https://github.com/anddea/revanced-patches/releases)            |
-| -------------------------------------------------------------------------------- | ------------------------------------------------------------------------------ |
-| [All Architectures](../../releases/download/all/youtube-stable-anddea.apk)       | [All Architectures](../../releases/download/all/youtube-beta-anddea.apk)       |
-| [Arm64-v8a](../../releases/download/all/youtube-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-beta-arm64-v8a-anddea.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-beta-armeabi-v7a-anddea.apk) |
-| [x86](../../releases/download/all/youtube-stable-x86-anddea.apk)                 | [x86](../../releases/download/all/youtube-beta-x86-anddea.apk)                 |
-| [x86_64](../../releases/download/all/youtube-stable-x86_64-anddea.apk)           | [x86_64](../../releases/download/all/youtube-beta-x86_64-anddea.apk)           |
-
-<details>
-  <summary>Lite version</summary>
-
-**A lite version is a version with unnecessary things removed. For example, it might only have an English interface and remove unused screen DPI from split APKs**
-  
-| [Stable version](https://github.com/anddea/revanced-patches/releases/latest)      | [Beta version](https://github.com/anddea/revanced-patches/releases)                 |
-| --------------------------------------------------------------------------------  | ----------------------------------------------------------------------------------- |
-| [Arm64-v8a](../../releases/download/all/youtube-lite-arm64-v8a-anddea.apk)        | [Arm64-v8a](../../releases/download/all/youtube-lite-beta-arm64-v8a-anddea.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-lite-armeabi-v7a-anddea.apk)    | [Armeabi-v7a](../../releases/download/all/youtube-lite-beta-armeabi-v7a-anddea.apk) |
-
-</details>
 
 ### [Revanced Extended For Android 6 & 7:](https://github.com/kitadai31/revanced-patches-android6-7/tree/revanced-extended)
 
@@ -217,6 +211,24 @@ Download
 
 ### [YouTube Music](https://play.google.com/store/apps/details?id=com.google.android.apps.youtube.music)
 
+### [Morphe:](https://github.com/MorpheApp/morphe-patches)
+
+| [Stable version](https://github.com/MorpheApp/morphe-patches/releases/latest)  | [Beta version](https://github.com/MorpheApp/morphe-patches/releases)                |
+| ------------------------------------------------------------------------------ | ----------------------------------------------------------------------------------- |
+| [Arm64-v8a](../../releases/download/all/youtube-music-arm64-v8a-morphe.apk)    | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-morphe.apk)    |
+| [Armeabi-v7a](../../releases/download/all/youtube-music-armeabi-v7a-morphe.apk)| [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-morphe.apk)|
+| [x86](../../releases/download/all/youtube-music-x86-morphe.apk)                | [x86](../../releases/download/all/youtube-music-beta-x86-morphe.apk)                |
+| [x86_64](../../releases/download/all/youtube-music-x86_64-morphe.apk)          | [x86_64](../../releases/download/all/youtube-music-beta-x86_64-morphe.apk)          |
+
+### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
+
+| [Stable version](https://github.com/anddea/revanced-patches/releases/latest)           | [Beta version](https://github.com/anddea/revanced-patches/releases)                  |
+| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
+| [Arm64-v8a](../../releases/download/all/youtube-music-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-anddea.apk)     |
+| [Armeabi-v7a](../../releases/download/all/youtube-music-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-anddea.apk) |
+| [x86](../../releases/download/all/youtube-music-stable-x86-anddea.apk)                 | [x86](../../releases/download/all/youtube-music-beta-x86-anddea.apk)                 |
+| [x86_64](../../releases/download/all/youtube-music-stable-x86_64-anddea.apk)           | [x86_64](../../releases/download/all/youtube-music-beta-x86_64-anddea.apk)           |
+
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
 | [Stable version](https://github.com/ReVanced/revanced-patches/releases/latest)    | [Beta version](https://github.com/ReVanced/revanced-patches/releases)                  |
@@ -234,15 +246,6 @@ Download
 | [Armeabi-v7a](../../releases/download/all/youtube-music-armeabi-v7a-revanced-extended.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-revanced-extended.apk) |
 | [x86](../../releases/download/all/youtube-music-x86-revanced-extended.apk)                 | [x86](../../releases/download/all/youtube-music-beta-x86-revanced-extended.apk)                 |
 | [x86_64](../../releases/download/all/youtube-music-x86_64-revanced-extended.apk)           | [x86_64](../../releases/download/all/youtube-music-beta-x86_64-revanced-extended.apk)           |
-
-### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
-
-| [Stable version](https://github.com/anddea/revanced-patches/releases/latest)           | [Beta version](https://github.com/anddea/revanced-patches/releases)                  |
-| -------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------ |
-| [Arm64-v8a](../../releases/download/all/youtube-music-stable-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/youtube-music-beta-arm64-v8a-anddea.apk)     |
-| [Armeabi-v7a](../../releases/download/all/youtube-music-stable-armeabi-v7a-anddea.apk) | [Armeabi-v7a](../../releases/download/all/youtube-music-beta-armeabi-v7a-anddea.apk) |
-| [x86](../../releases/download/all/youtube-music-stable-x86-anddea.apk)                 | [x86](../../releases/download/all/youtube-music-beta-x86-anddea.apk)                 |
-| [x86_64](../../releases/download/all/youtube-music-stable-x86_64-anddea.apk)           | [x86_64](../../releases/download/all/youtube-music-beta-x86_64-anddea.apk)           |
 
 ---
 
@@ -318,21 +321,6 @@ Download
 
 ---
 
-### [Spotjfy:](https://www.google.com/search?q=Spotjfy)
-
-### [Revanced](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                            | Beta version                                                                   |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
-| [Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-revanced.apk)   | [Arm64-v8a](../../releases/download/all/spotjfy-beta-arm64-v8a-revanced.apk)   |
-
-### [Revanced Extended forked by anddea:](https://github.com/anddea/revanced-patches)
-| Stable version                                                            | Beta version                                                                   |
-| ------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
-| [Arm64-v8a](../../releases/download/all/spotjfy-arm64-v8a-anddea.apk)     | [Arm64-v8a](../../releases/download/all/spotjfy-beta-arm64-v8a-anddea.apk)     |
-
----
-
 ### [TikTok:](https://play.google.com/store/apps/details?id=com.ss.android.ugc.trill)
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
@@ -355,6 +343,12 @@ Download
 ---
 
 ### [Reddit:](https://play.google.com/store/apps/details?id=com.reddit.frontpage)
+
+### [Morphe:](https://github.com/MorpheApp/morphe-patches)
+
+| Stable version                                                       | Beta version                                                              |
+| -------------------------------------------------------------------- | ------------------------------------------------------------------------- | 
+| [All Architectures](../../releases/download/all/reddit-morphe.apk)   | [All Architectures](../../releases/download/all/reddit-beta-morphe.apk)   |
 
 ### [Revanced:](https://github.com/ReVanced/revanced-patches)
 
@@ -500,26 +494,6 @@ Download
 
 ---
 
-### [Prime Video:](https://play.google.com/store/apps/details?id=com.amazon.avod.thirdpartyclient)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                                                | Beta version                                                                       |
-| ----------------------------------------------------------------------------- | ---------------------------------------------------------------------------------- | 
-| [Arm64-v8a](../../releases/download/all/prime-video-arm64-v8a-revanced.apk)   | [Arm64-v8a](../../releases/download/all/prime-video-beta-arm64-v8a-revanced.apk)   |
-
----
-
-### [Disney+:](https://play.google.com/store/apps/details?id=com.disney.disneyplus)
-
-### [Revanced:](https://github.com/revanced/revanced-patches)
-
-| Stable version                                               | Beta version                                                      |
-| ------------------------------------------------------------ | ----------------------------------------------------------------- | 
-| [Arm64-v8a](../../releases/download/all/disney-revanced.apk) | [Arm64-v8a](../../releases/download/all/disney-beta-revanced.apk) |
-
----
-
 ### [Viber:](https://play.google.com/store/apps/details?id=com.viber.voip)
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
@@ -530,13 +504,13 @@ Download
 
 ---
 
-### [Crunchyroll:](https://play.google.com/store/apps/details?id=com.crunchyroll.crunchyroid)
+### [MyFitnessPal:](https://play.google.com/store/apps/details?id=com.myfitnesspal.android)
 
 ### [Revanced:](https://github.com/revanced/revanced-patches)
 
-| Stable version                                                            | Beta version                                                                  |
-| ------------------------------------------------------------------------- | ----------------------------------------------------------------------------- | 
-| [All Architectures](../../releases/download/all/crunchyroll-revanced.apk) | [All Architectures](../../releases/download/all/crunchyroll-beta-revanced.apk)|
+| Stable version                                                             | Beta version                                                                   |
+| -------------------------------------------------------------------------- | ------------------------------------------------------------------------------ | 
+| [All Architectures](../../releases/download/all/MyFitnessPal-revanced.apk) | [All Architectures](../../releases/download/all/MyFitnessPal-beta-revanced.apk)|
 
 ---
 
@@ -569,24 +543,6 @@ Download
 ### [Dropped Patches by indrastorms:](https://github.com/indrastorms/Dropped-Patches)
 
 [All Architectures](../../releases/download/all/fx-file-explorer-indrastorms.apk)
-
----
-
-<h4 align="center">
-Apps below not based on Revanced, but project still open-source.
-</h4>
-
-[![Instagram](https://img.shields.io/badge/Instagram-%23E4405F.svg?style=for-the-badge&logo=Instagram&logoColor=white)](https://play.google.com/store/apps/details?id=com.instagram.android)
-
-### [Instafel:](https://github.com/mamiiblt/instafel)
-
-👉 [Offical author download link](https://github.com/mamiiblt/instafel/releases/latest)
-
-[Arm64-v8a](../../releases/download/all/instagram-instafel.apk )
-
-[Cloned-Arm64-v8a](../../releases/download/all/instagram-clone-instafel.apk )
-
-Cloned version has a different package name than the original app, so you can install both the original and the modified app at the same time.
 
 ### ⚠️ Library, resources using in this repository:
 
@@ -694,9 +650,18 @@ Cloned version has a different package name than the original app, so you can in
 </details>
 
 <details>
-  <summary>mamiiblt</summary>
+  <summary>chsbuffer</summary>
 
-[Patches](https://github.com/mamiiblt/instafel) - [MIT](https://github.com/mamiiblt/instafel/blob/main/LICENSE)
+[Patches](https://github.com/chsbuffer/ReVancedXposed) - [GPL-3.0](https://github.com/chsbuffer/ReVancedXposed/blob/main/LICENSE)
+
+</details>
+
+</details>
+
+<details>
+  <summary>JingMatrix</summary>
+
+[LSPatch](https://github.com/JingMatrix/LSPatch) - [GPL-3.0](https://github.com/JingMatrix/LSPatch/blob/main/LICENSE)
 
 </details>
 
